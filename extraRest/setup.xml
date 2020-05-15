@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm
+  name="extraRest Setup Form"
+  type="xmlform"
+  labelwidth="200"
+  width="600"
+>
+<TITLE1 type="title" group="1">
+  <en>extraRest plugin setup</en>
+</TITLE1>
+
+<REQUIRE_PERMISSION type="checkbox" group="1">
+  <en>Require the PM_EXTRAREST permission in role to use these REST endpoints</en>
+</REQUIRE_PERMISSION>
+
+<REQUIRE_EXTRAREST_SQL type="checkbox" group="1">
+  <en>Require the PM_EXTRAREST_SQL permission in role to use GET extrarest/sql</en>
+</REQUIRE_EXTRAREST_SQL>
+
+<BTN_SUBMIT type="submit">
+  <en>Save</en>
+</BTN_SUBMIT>
+</dynaForm>
